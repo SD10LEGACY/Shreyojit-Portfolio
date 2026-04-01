@@ -1,17 +1,22 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // 1. Set explicit base for Vercel deployment
+  // Ensures all paths in index.html start with /
   base: '/', 
   build: {
-    // 2. Ensure the output directory matches Vercel's expectations
+    // Explicitly define output for Vercel
     outDir: 'dist',
-    // 3. Ensure assets are cleaned before every build
+    // Clean the folder before building to prevent stale hashes
     emptyOutDir: true,
-    // 4. Sometimes helpful for Rolldown's asset mapping
-    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        // This ensures a predictable structure for your assets
+        assetFileNames: 'assets/[name]-[hash][extname]',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+      },
+    },
   },
 })
