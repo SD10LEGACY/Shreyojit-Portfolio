@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FF5722&height=120&section=header&text=PORTFOLIO_OS_&fontSize=50&fontAlignY=50&fontColor=050505&desc=v2.0_//_MAIN_TERMINAL&descAlignY=75&descSize=20&descColor=050505" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FF5722&height=120&section=header&text=SHREYOJIT_PORTFOLIO_&fontSize=50&fontAlignY=50&fontColor=050505&desc=v2.0_//_MAIN_TERMINAL&descAlignY=75&descSize=20&descColor=050505" width="100%" />
 
 <br><br>
 
