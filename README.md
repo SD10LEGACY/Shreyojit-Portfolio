@@ -45,5 +45,5 @@ To boot this project locally, ensure you have `Node.js` installed. The applicati
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/SD10LEGACY/portfolio-repo-name.git](https://github.com/SD10LEGACY/portfolio-repo-name.git)
-cd portfolio-repo-name
+git clone [https://github.com/SD10LEGACY/Shreyojit-Portfolio.git](https://github.com/SD10LEGACY/Shreyojit-Portfolio.git)
+cd Shreyojit-Portfolio
